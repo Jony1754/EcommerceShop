@@ -1,0 +1,26 @@
+@import 'vars';
+
+.ProductList {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 240px);
+	gap: 36px;
+	place-content: center;
+	// margin: 3em 0 0 0;
+	padding-top: 3em;
+	position: relative;
+	background-color: var(--hospital-green);
+
+	// position: relative;
+	// height: 100%;
+}
+
+.main-container {
+	background-color: var(--hospital-green);
+	height: 100vh;
+}
+
+@media (max-width: 640px) {
+	.ProductList {
+		grid-template-columns: repeat(auto-fill, 140px);
+	}
+}
