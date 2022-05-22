@@ -1,0 +1,354 @@
+[
+    {
+        "id": 1,
+        "title": "Sueter Polo Blanco",
+        "price": 34900,
+        "category": "men's clothing",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_947614-MCO45698704033_042021-O.jpg",
+        "rating": {
+            "rate": 4.5,
+            "count": 115
+        }
+    },
+    {
+        "id": 2,
+        "title": "Sueter Polo Rojo",
+        "price": 34900,
+        "category": "men's clothing",
+        "image": "https://tommypanama.vteximg.com.br/arquivos/ids/190938-753-1004/MW0MW08054_611_1.jpg?v=637553154616270000",
+        "rating": {
+            "rate": 4.6,
+            "count": 102
+        }
+    },
+    {
+        "id": 3,
+        "title": "Sweater Hombre Wolf & Hank",
+        "price": 179900,
+        "category": "men's clothing",
+        "image": "https://falabella.scene7.com/is/image/FalabellaCO/882321963_1?wid=800&hei=800&qlt=70",
+        "rating": {
+            "rate": 4.2,
+            "count": 50
+        }
+    },
+    {
+        "id": 4,
+        "title": "Sweater Lana Hombre",
+        "price": 199900,
+        "category": "men's clothing",
+        "image": "https://falabella.scene7.com/is/image/FalabellaCO/882045582_1?wid=800&hei=800&qlt=70",
+        "rating": {
+            "rate": 4.6,
+            "count": 20
+        }
+    },
+    {
+        "id": 5,
+        "title": "Sweater Lana Hombre",
+        "price": 199900,
+        "category": "men's clothing",
+        "image": "https://falabella.scene7.com/is/image/FalabellaCO/882045582_1?wid=800&hei=800&qlt=70",
+        "rating": {
+            "rate": 4.6,
+            "count": 20
+        }
+    },
+    {
+        "id": 6,
+        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "price": 109995,
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 7,
+        "title": "Mens Casual Premium Slim Fit T-Shirts ",
+        "price": 22300,
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+        "rating": {
+            "rate": 4.1,
+            "count": 259
+        }
+    },
+    {
+        "id": 8,
+        "title": "Mens Cotton Jacket",
+        "price": 55999,
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+        "rating": {
+            "rate": 4.7,
+            "count": 500
+        }
+    },
+    {
+        "id": 9,
+        "title": "Mens Casual Slim Fit",
+        "price": 15999,
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+        "rating": {
+            "rate": 2.1,
+            "count": 430
+        }
+    },
+    {
+        "id": 9,
+        "title": "Mens Casual Slim Fit",
+        "price": 15999,
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+        "rating": {
+            "rate": 2.1,
+            "count": 430
+        }
+    },
+    {
+        "id": 10,
+        "title": "Men Drill Pants",
+        "price": 119900,
+        "category": "men's clothing",
+        "image": "https://falabella.scene7.com/is/image/FalabellaCO/882072624_1?wid=800&hei=800&qlt=70",
+        "rating": {
+            "rate": 3,
+            "count": 400
+        }
+    },
+    {
+        "id": 11,
+        "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+        "price": 695000,
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+        "rating": {
+            "rate": 4.6,
+            "count": 400
+        }
+    },
+    {
+        "id": 12,
+        "title": "Solid Gold Petite Micropave ",
+        "price": 168000,
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+        "rating": {
+            "rate": 3.9,
+            "count": 70
+        }
+    },
+    {
+        "id": 13,
+        "title": "White Gold Plated Princess",
+        "price": 9999,
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+        "rating": {
+            "rate": 3,
+            "count": 400
+        }
+    },
+    {
+        "id": 14,
+        "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+        "price": 10999,
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+        "rating": {
+            "rate": 1.9,
+            "count": 100
+        }
+    },
+    {
+        "id": 15,
+        "title": "Tous Basics",
+        "price": 199999,
+        "category": "jewelery",
+        "image": "https://falabella.scene7.com/is/image/FalabellaCO/18574417_1?wid=1500&hei=1500&qlt=70",
+        "rating": {
+            "rate": 4,
+            "count": 100
+        }
+    },
+    {
+        "id": 16,
+        "title": "Tous Chain",
+        "price": 100999,
+        "category": "jewelery",
+        "image": "https://falabella.scene7.com/is/image/Falabella/3430301_1?wid=1500&hei=1500&qlt=70",
+        "rating": {
+            "rate": 4.9,
+            "count": 100
+        }
+    },
+    {
+        "id": 17,
+        "title": "Tous Sweet Dolls",
+        "price": 239999,
+        "category": "jewelery",
+        "image": "https://falabella.scene7.com/is/image/FalabellaCO/3430907_1?wid=1500&hei=1500&qlt=70",
+        "rating": {
+            "rate": 4.9,
+            "count": 100
+        }
+    },
+    {
+        "id": 18,
+        "title": "Tous Galaxy Collar",
+        "price": 359999,
+        "category": "jewelery",
+        "image": "https://falabella.scene7.com/is/image/FalabellaCO/3430197_1?wid=1500&hei=1500&qlt=70",
+        "rating": {
+            "rate": 5,
+            "count": 100
+        }
+    },
+    {
+        "id": 19,
+        "title": "Pulsera Mujer Lujo925 Cristal Murano Plateado 19cm",
+        "price": 48999,
+        "category": "jewelery",
+        "image": "https://falabella.scene7.com/is/image/FalabellaCO/7118206_1?wid=1500&hei=1500&qlt=70",
+        "rating": {
+            "rate": 4,
+            "count": 200
+        }
+    },
+    {
+        "id": 20,
+        "title": "Tous Bear",
+        "price": 269999,
+        "category": "jewelery",
+        "image": "https://falabella.scene7.com/is/image/FalabellaCO/3429937_1?wid=1500&hei=1500&qlt=70",
+        "rating": {
+            "rate": 3.5,
+            "count": 300
+        }
+    },
+    {
+        "id": 21,
+        "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+        "price": 56999,
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+        "rating": {
+            "rate": 2.6,
+            "count": 235
+        }
+    },
+    {
+        "id": 22,
+        "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+        "price": 29995,
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+        "rating": {
+            "rate": 2.9,
+            "count": 340
+        }
+    },
+    {
+        "id": 23,
+        "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+        "price": 39999,
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+        "rating": {
+            "rate": 3.8,
+            "count": 679
+        }
+    },
+    {
+        "id": 24,
+        "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
+        "price": 90985,
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+        "rating": {
+            "rate": 4.7,
+            "count": 130
+        }
+    },
+    {
+        "id": 25,
+        "title": "Opna Women's Short Sleeve Moisture",
+        "price": 75995,
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+        "rating": {
+            "rate": 4.5,
+            "count": 146
+        }
+    },
+    {
+        "id": 26,
+        "title": "DANVOUY Womens T Shirt Casual Cotton Short",
+        "price": 12999,
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+        "rating": {
+            "rate": 4,
+            "count": 145
+        }
+    },
+    {
+        "id": 27,
+        "title": "Women Sweater",
+        "price": 129999,
+        "category": "women's clothing",
+        "image": "https://falabella.scene7.com/is/image/FalabellaCO/882264753_1?wid=1500&hei=1500&qlt=70",
+        "rating": {
+            "rate": 3.2,
+            "count": 145
+        }
+    },
+    {
+        "id": 28,
+        "title": "Women Jacket Nweboat",
+        "price": 169999,
+        "category": "women's clothing",
+        "image": "https://falabella.scene7.com/is/image/FalabellaCO/882336912_1?wid=1500&hei=1500&qlt=70",
+        "rating": {
+            "rate": 3.5,
+            "count": 145
+        }
+    },
+    {
+        "id": 28,
+        "title": "Women Jacket Calvin Klein",
+        "price": 569999,
+        "category": "women's clothing",
+        "image": "https://falabella.scene7.com/is/image/FalabellaCO/20388893_1?wid=1500&hei=1500&qlt=70",
+        "rating": {
+            "rate": 3.9,
+            "count": 100
+        }
+    },
+    {
+        "id": 29,
+        "title": "Women Southland Jacket",
+        "price": 199999,
+        "category": "women's clothing",
+        "image": "https://falabella.scene7.com/is/image/FalabellaCO/882337708_1?wid=1500&hei=1500&qlt=70",
+        "rating": {
+            "rate": 4.2,
+            "count": 150
+        }
+    },
+    {
+        "id": 30,
+        "title": "Women Dress",
+        "price": 99999,
+        "category": "women's clothing",
+        "image": "https://falabella.scene7.com/is/image/FalabellaCO/29223925_1?wid=1500&hei=1500&qlt=70",
+        "rating": {
+            "rate": 4.5,
+            "count": 120
+        }
+    }
+]
