@@ -1,0 +1,55 @@
+.hero {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    background-color: var(--hospital-green);
+    align-items: center;
+
+    .hero-img {
+        width: 60%;
+
+
+        img {
+            height: 300px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+    }
+
+    .hero-text {
+        width: 50%;
+        height: fit-content;
+        color: var(--hospital-green);
+
+        button {
+            margin-bottom: 10px;
+        }
+
+        .hero-text-container {
+            box-sizing: border-box;
+            width: 500px;
+            padding: 70px 100px;
+            height: fit-content;
+
+            border-radius: 10px;
+            // box-shadow: var(--white) 0px 1px 4px;
+            // box-shadow: var(--white) 0px 7px 29px 0px;
+            background-color: var(--white);
+
+            p {
+                font-size: 30px;
+                font-weight: 600;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+
+            em {
+                font-weight: 900;
+                color: white;
+                font-style: normal;
+            }
+        }
+    }
+}

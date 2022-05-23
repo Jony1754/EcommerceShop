@@ -31,15 +31,17 @@ const Header = () => {
             <Link to='/clothes'>Jewelery</Link>
             {/* <a href='/'>Clothes</a> */}
           </li>
+
           <li>
-            <Link to='/men'>Electronics</Link>
+            <Link to='/woman'>Woman's clothing</Link>
+            <Link to='/man'>Man's clothing</Link>
           </li>
         </ul>
       </div>
       <div className='navbar-right'>
         <ul>
           <li className='navbar-email' onClick={handleToggle}>
-            ariasej@example.com
+            You're buying without account
           </li>
           <li
             className='navbar-shopping-cart'

@@ -28,11 +28,13 @@
 	grid-template-columns: auto 1fr;
 	gap: 16px;
 	align-items: center;
+	place-content: center;
 	background-color: var(--hospital-green);
 	margin-bottom: 24px;
 	border-radius: 8px;
 	padding: 0 24px;
 	color: var(--white);
+	height: 60px;
 }
 
 .order p:nth-child(1) {

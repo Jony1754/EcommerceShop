@@ -5,22 +5,29 @@
 	height: 100vh;
 	display: grid;
 	place-items: center;
+	background-color: var(--hospital-green);
 }
+
 .Login-container {
 	display: grid;
 	grid-template-rows: auto 1fr auto;
 	width: 300px;
+	background-color: var(--white);
+	padding: 20px;
 }
+
 .logo {
 	width: 150px;
 	margin-bottom: 48px;
 	justify-self: center;
 	display: none;
 }
+
 .form {
 	display: flex;
 	flex-direction: column;
 }
+
 .form a {
 	color: var(--hospital-green);
 	font-size: var(--sm);
@@ -28,11 +35,13 @@
 	text-decoration: none;
 	margin-bottom: 52px;
 }
+
 .label {
 	font-size: var(--sm);
 	font-weight: bold;
 	margin-bottom: 4px;
 }
+
 .input {
 	background-color: var(--text-input-field);
 	border: none;
@@ -42,9 +51,11 @@
 	padding: 6px;
 	margin-bottom: 12px;
 }
+
 .input-email {
 	margin-bottom: 22px;
 }
+
 .primary-button {
 	background-color: var(--hospital-green);
 	border-radius: 8px;
@@ -55,7 +66,13 @@
 	font-size: var(--md);
 	font-weight: bold;
 	height: 50px;
+
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
 }
+
 .secondary-button {
 	background-color: var(--white);
 	border-radius: 8px;
@@ -66,11 +83,18 @@
 	font-size: var(--md);
 	font-weight: bold;
 	height: 50px;
+
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
 }
+
 .login-button {
 	margin-top: 14px;
 	margin-bottom: 30px;
 }
+
 @media (max-width: 640px) {
 	.logo {
 		display: block;

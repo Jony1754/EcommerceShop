@@ -1,4 +1,6 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Layout from '@containers/Layout';
 import Home from '@pages/Home';
@@ -16,6 +18,8 @@ import useInitialState from '../hooks/useInitialState';
 import '@styles/global.css';
 import Jewelery from '../pages/Jewelery';
 import Men from '../pages/Men';
+import Woman from '../pages/Woman';
+import Man from '../pages/Man';
 
 const App = () => {
   const initialState = useInitialState();
@@ -27,7 +31,9 @@ const App = () => {
             <Route exact path='/' component={Home} />
             <Route exact path='/login' component={Login} />
             <Route exact path='/clothes' component={Jewelery} />
-            <Route exact path='/men' component={Men} />
+            {/* <Route exact path='/men' component={Men} /> */}
+            <Route exact path='/woman' component={Woman} />
+            <Route exact path='/man' component={Man} />
             <Route
               exact
               path='/password-recovery'

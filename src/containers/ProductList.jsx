@@ -3,9 +3,14 @@ import ProductItem from '@components/ProductItem';
 import useGetProducts from '../hooks/useGetProducts';
 import '@styles/ProductList.scss';
 
-const ProductList = ({ api }) => {
+const ProductList = ({ api, store }) => {
   console.log('API EN PRODUCT LIST' + api);
-  const products = useGetProducts(api);
+  let products;
+  if (store) {
+    products = store;
+  } else {
+    products = useGetProducts(api);
+  }
 
   return (
     <section className='main-container'>
