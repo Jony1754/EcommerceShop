@@ -1,4 +1,5 @@
 import React from 'react';
+import Loading from '../components/Loading';
 import ProductList from '../containers/ProductList';
 import useGetProducts from '../hooks/useGetProducts';
 const Man = () => {
@@ -9,11 +10,15 @@ const Man = () => {
     return item.category === "men's clothing";
   });
 
-  return (
-    <>
-      <ProductList api={API2} store={mansclothes} />
-    </>
-  );
+  if (products) {
+    return (
+      <>
+        <ProductList api={API2} store={mansclothes} />
+      </>
+    );
+  } else {
+    return <Loading />;
+  }
 };
 
 export default Man;

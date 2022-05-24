@@ -2,6 +2,7 @@ import React from 'react';
 import ProductItem from '@components/ProductItem';
 import useGetProducts from '../hooks/useGetProducts';
 import '@styles/ProductList.scss';
+import Loading from '../components/Loading';
 
 const ProductList = ({ api, store }) => {
   console.log('API EN PRODUCT LIST' + api);

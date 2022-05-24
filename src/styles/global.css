@@ -1,5 +1,6 @@
 * {
   /* box-sizing: border-box; */
+  font-family: 'Quicksand', sans-serif;
 }
 body {
   margin: 0;
@@ -10,4 +11,9 @@ body {
 .mymodal {
   height: 200px;
   width: 100px;
+}
+
+.carousel-caption {
+  color: gray;
+  font-weight: bold;
 }
