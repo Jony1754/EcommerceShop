@@ -6,3 +6,8 @@ body {
   font-family: 'Quicksand', sans-serif;
   /* background-color: var(--hospital-green); */
 }
+
+.mymodal {
+  height: 200px;
+  width: 100px;
+}
