@@ -2,6 +2,7 @@ import React from 'react';
 import Loading from '../components/Loading';
 import ProductList from '../containers/ProductList';
 import useGetProducts from '../hooks/useGetProducts';
+import Modal from '../components/Modal';
 const Man = () => {
   const API2 = 'https://fakestoreapi.com/products/';
   const products = useGetProducts(API2);
@@ -10,14 +11,30 @@ const Man = () => {
     return item.category === "men's clothing";
   });
 
-  if (products) {
+  const [show, setShow] = React.useState(false);
+  const [loading, setLoading] = React.useState(true);
+  const [data, setData] = React.useState(products);
+  data.length === 0 && setLoading(true);
+  data.length !== 0 && setLoading(false);
+
+  if (!loading) {
     return (
       <>
         <ProductList api={API2} store={mansclothes} />
       </>
     );
   } else {
-    return <Loading />;
+    return (
+      <Modal
+        show={loading}
+        title='NOTIFICACION'
+        onClose={() => {
+          setShow(false);
+        }}
+      >
+        <Loading />
+      </Modal>
+    );
   }
 };
 
