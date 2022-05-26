@@ -4,7 +4,9 @@ import AppContext from '../context/AppContext';
 import addToCartImage from '@icons/bt_add_to_cart.svg';
 
 const ProductItem = ({ product }) => {
-  const { addToCart, state } = useContext(AppContext);
+  const {
+    initialState: { addToCart, state },
+  } = useContext(AppContext);
 
   const handleClick = (item) => {
     if (state.cart.find((product) => product.id === item.id)) {

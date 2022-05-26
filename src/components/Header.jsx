@@ -11,7 +11,9 @@ import shoppingCart from '@icons/icon_shopping_cart.svg';
 const Header = () => {
   const [toggle, setToggle] = useState(false);
   const [toggleOrders, setToggleOrders] = useState(false);
-  const { state } = useContext(AppContext);
+  const {
+    initialState: { state },
+  } = useContext(AppContext);
 
   const handleToggle = () => {
     console.log('CLICK CART');

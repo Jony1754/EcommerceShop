@@ -5,7 +5,9 @@ import useInitialState from '../hooks/useInitialState';
 import AppContext from '../context/AppContext';
 import Loading from '../components/Loading';
 const Checkout = () => {
-  const { state } = useContext(AppContext);
+  const {
+    initialState: { state },
+  } = useContext(AppContext);
   const { cart } = state;
   const [disabled, setDisabled] = useState(true);
   const sumTotal = () => {

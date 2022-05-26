@@ -6,7 +6,9 @@ import arrow from '@icons/flechita.svg';
 import { Link } from 'react-router-dom';
 import Loading from '../components/Loading';
 const MyOrder = () => {
-  const { state } = useContext(AppContext);
+  const {
+    initialState: { state },
+  } = useContext(AppContext);
 
   const sumTotal = () => {
     const reducer = (accumalator, currentValue) =>

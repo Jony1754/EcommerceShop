@@ -1,7 +1,5 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'semantic-ui-css/semantic.min.css';
-
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Layout from '@containers/Layout';
 import Home from '@pages/Home';
@@ -21,11 +19,15 @@ import Jewelery from '../pages/Jewelery';
 import Men from '../pages/Men';
 import Woman from '../pages/Woman';
 import Man from '../pages/Man';
+import useGetProducts from '../hooks/useGetProducts';
 
 const App = () => {
   const initialState = useInitialState();
+  const API2 = 'https://fakestoreapi.com/products/';
+
+  const products = useGetProducts(API2);
   return (
-    <AppContext.Provider value={initialState}>
+    <AppContext.Provider value={{ initialState, products }}>
       <BrowserRouter>
         <Layout>
           <Switch>
