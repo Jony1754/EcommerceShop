@@ -3,21 +3,30 @@
 .MyOrder {
 	width: 360px;
 	padding: 24px;
-	height: fit-content;
+	height: 400px;
 	box-sizing: border-box;
 	position: absolute;
 	z-index: 3;
 	right: 0;
+	display: grid;
 	background-color: var(--white);
 	top: 60px;
 	bottom: 0;
 	border-radius: 6px;
 	color: var(--hospital-green);
 	border: 1px solid var(--very-light-pink);
+	overflow-y: scroll;
+	grid-template-rows: 30px 1fr 1fr;
+	place-items: center;
+	place-content: center;
 }
 
 .title-container {
 	display: flex;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 20px;
+
 }
 
 .title-container img {

@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import '@styles/Header.scss';
 import Menu from '@components/Menu';
 import MyOrder from '../containers/MyOrder';
@@ -11,6 +11,8 @@ import shoppingCart from '@icons/icon_shopping_cart.svg';
 const Header = () => {
   const [toggle, setToggle] = useState(false);
   const [toggleOrders, setToggleOrders] = useState(false);
+  const { initialState } = useContext(AppContext);
+  const { logstate, loggedUser } = initialState;
   const {
     initialState: { state },
   } = useContext(AppContext);
@@ -19,6 +21,10 @@ const Header = () => {
     console.log('CLICK CART');
     setToggle(!toggle);
   };
+
+  useEffect(() => {
+    console.log('log state changed ', logstate, loggedUser);
+  }, [logstate]);
 
   return (
     <nav>
@@ -43,7 +49,7 @@ const Header = () => {
       <div className='navbar-right'>
         <ul>
           <li className='navbar-email' onClick={handleToggle}>
-            You're buying without account
+            {logstate ? loggedUser.email : 'Please log in'}
           </li>
           <li
             className='navbar-shopping-cart'

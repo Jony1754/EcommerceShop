@@ -5,29 +5,22 @@ import useGetProducts from '../hooks/useGetProducts';
 import Modal from '../components/Modal';
 import AppContext from '../context/AppContext';
 const Man = () => {
-  const { products } = useContext(AppContext);
+  const { initialState, products } = useContext(AppContext);
+
   const mansclothes = products.filter((item) => {
     return item.category === "men's clothing";
   });
-
-  if (!loading) {
+  const API2 = 'https://fakestoreapi.com/products/';
+  console.log('STATE EN MANS CLOTHES: ', initialState.state);
+  if (products.length !== 0) {
+    console.log('entro a + ', products);
     return (
       <>
         <ProductList api={API2} store={mansclothes} />
       </>
     );
   } else {
-    return (
-      <Modal
-        show={loading}
-        title='NOTIFICACION'
-        onClose={() => {
-          setShow(false);
-        }}
-      >
-        <Loading />
-      </Modal>
-    );
+    return <Loading />;
   }
 };
 

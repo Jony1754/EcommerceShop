@@ -1,18 +1,20 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState, useContext } from 'react';
 import '@styles/Login.scss';
 import logo from '@logos/logo_yard_sale.svg';
-
+import AppContext from '../context/AppContext';
 const Login = () => {
   const form = useRef(null);
-
+  const { initialState } = useContext(AppContext);
+  const { login } = initialState;
   const handleSubmit = (event) => {
     event.preventDefault();
     const formData = new FormData(form.current);
     const data = {
-      usename: formData.get('email'),
+      email: formData.get('email'),
       password: formData.get('password'),
     };
-    console.log(data);
+    login(data);
+    // console.log(data);
   };
 
   return (

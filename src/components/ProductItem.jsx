@@ -14,7 +14,7 @@ const ProductItem = ({ product }) => {
       addToCart({ ...item, quantity: 1 });
     }
   };
-  console.log('product item', product);
+  // console.log('product item', product);
   return (
     <div className='ProductItem'>
       <img src={product.image} alt={product.title} />

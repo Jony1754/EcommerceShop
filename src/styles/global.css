@@ -12,7 +12,15 @@ body {
   height: 200px;
   width: 100px;
 }
-
+.input {
+  background-color: rgb(232, 232, 232);
+  border: none;
+  border-radius: 8px;
+  height: 30px;
+  font-size: var(--md);
+  margin-bottom: 12px;
+  padding: 20px;
+}
 .carousel-caption {
   color: gray;
   font-weight: bold;
