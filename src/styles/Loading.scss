@@ -42,6 +42,12 @@
     animation: lds-spinner 1.2s linear infinite;
 }
 
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .lds-spinner div:after {
     content: " ";
     display: block;

@@ -18,8 +18,9 @@ const Header = () => {
   } = useContext(AppContext);
 
   const handleToggle = () => {
-    console.log('CLICK CART');
-    setToggle(!toggle);
+    if (logstate) {
+      setToggle(!toggle);
+    }
   };
 
   useEffect(() => {
@@ -49,7 +50,12 @@ const Header = () => {
       <div className='navbar-right'>
         <ul>
           <li className='navbar-email' onClick={handleToggle}>
-            {logstate ? loggedUser.email : 'Please log in'}
+            {!logstate && (
+              <Link to='/login' className='primary-button blue'>
+                Sign in
+              </Link>
+            )}
+            {logstate && loggedUser.email}
           </li>
           <li
             className='navbar-shopping-cart'

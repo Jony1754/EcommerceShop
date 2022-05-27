@@ -2,22 +2,33 @@ import { useState } from 'react';
 
 const initialState = {
   cart: [],
-  users: [{ email: 'test@', password: '123', name: 'test' }],
-  loggedUser: {},
+  users: [
+    { email: 'jony@gmail.com', password: '12345', name: 'Jonathan Arias Rua' },
+    { email: 'ger@gmail.com', password: '12345', name: 'German David Vargas' },
+    {
+      email: 'enri@gmail.com',
+      password: '12345',
+      name: 'Enrique Jose Miranda',
+    },
+  ],
+  // loggedUser: {},
 };
 
 const useInitialState = () => {
   const [state, setState] = useState(initialState);
+  const [loggedUser, setLoggedUser] = useState({});
   const [logstate, setLogstate] = useState(false);
   const login = (payload) => {
     console.log('called login with: ', payload, 'and users: ', state.users);
     const { email, password } = payload;
     state.users.forEach((user) => {
       if (user.email == email && user.password == password) {
-        setState({ ...state, loggedUser: user });
         setLogstate(true);
+        console.log(user);
+        // setState({ ...state, loggedUser: user });
+        setLoggedUser(user);
         console.log('SUCCESFUL LOG ', user);
-        console.log('logged user: ', state.loggedUser);
+        console.log('logged user: ', loggedUser);
       }
     });
   };
@@ -56,6 +67,9 @@ const useInitialState = () => {
     addUser,
     login,
     logstate,
+    loggedUser,
+    setLoggedUser,
+    setLogstate,
   };
 };
 

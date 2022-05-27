@@ -2,8 +2,11 @@ import React, { useRef, useState, useContext } from 'react';
 import '@styles/Login.scss';
 import logo from '@logos/logo_yard_sale.svg';
 import AppContext from '../context/AppContext';
+import Modal from '../components/Modal';
+import Spinner from '../components/Spinner';
 const Login = () => {
   const form = useRef(null);
+  const [show, setShow] = useState(false);
   const { initialState } = useContext(AppContext);
   const { login } = initialState;
   const handleSubmit = (event) => {
@@ -13,7 +16,11 @@ const Login = () => {
       email: formData.get('email'),
       password: formData.get('password'),
     };
-    login(data);
+    setShow(true);
+    setTimeout(() => {
+      login(data);
+      setShow(false);
+    }, 2000);
     // console.log(data);
   };
 
@@ -50,6 +57,15 @@ const Login = () => {
         </form>
         <button className='secondary-button signup-button'>Sign up</button>
       </div>
+      <Modal
+        title={'LOG IN'}
+        show={show}
+        onClose={() => {
+          setShow(!show);
+        }}
+      >
+        <Spinner />
+      </Modal>
     </div>
   );
 };
