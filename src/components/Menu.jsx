@@ -15,9 +15,10 @@ const Menu = () => {
   return (
     <div className='Menu'>
       <ul>
-        {/* <li>
-					<a href="/" className="title">My orders</a>
-				</li> */}
+        <li>
+          {/* <Link to='/orders'>My Orders</Link>
+           */}
+        </li>
         <li>
           <Link to='/account'>My account</Link>
         </li>

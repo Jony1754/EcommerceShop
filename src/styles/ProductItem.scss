@@ -28,7 +28,7 @@
 .product-info figure img {
 	width: 35px;
 	height: 35px;
-	// color: var(--hospital-green);
+	color: var(--brown);
 }
 
 .product-info div p:nth-child(1) {
@@ -42,7 +42,7 @@
 	font-size: var(--sm);
 	margin-top: 0;
 	margin-bottom: 0;
-	color: var(--hospital-green);
+	color: var(--brown);
 }
 
 @media (max-width: 640px) {

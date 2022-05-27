@@ -3,12 +3,23 @@ import { useState } from 'react';
 const initialState = {
   cart: [],
   users: [
-    { email: 'jony@gmail.com', password: '12345', name: 'Jonathan Arias Rua' },
-    { email: 'ger@gmail.com', password: '12345', name: 'German David Vargas' },
+    {
+      email: 'jony@gmail.com',
+      password: '12345',
+      name: 'Jonathan Arias Rua',
+      orders: [5, 6, 7],
+    },
+    {
+      email: 'ger@gmail.com',
+      password: '12345',
+      name: 'German David Vargas',
+      orders: [1, 2, 3],
+    },
     {
       email: 'enri@gmail.com',
       password: '12345',
       name: 'Enrique Jose Miranda',
+      orders: [8, 9, 10],
     },
   ],
   // loggedUser: {},

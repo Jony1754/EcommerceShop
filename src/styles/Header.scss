@@ -43,7 +43,7 @@ nav {
 .navbar-left ul li a,
 .navbar-right ul li a {
 	text-decoration: none;
-	color: var(--hospital-green);
+	color: var(--gold);
 	// border: 1px solid var(--white);
 	padding: 8px;
 	border-radius: 8px;
@@ -51,8 +51,8 @@ nav {
 
 .navbar-left ul li a:hover,
 .navbar-right ul li a:hover {
-	border: 1px solid var(--hospital-green);
-	color: var(--hospital-green);
+	border: 1px solid var(--gold);
+	color: var(--gold);
 	font-weight: bold;
 
 }
